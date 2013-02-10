@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_label_INTERNET">Allow internet access</string>
+    <string name="permission_desc_INTERNET">Allows the app to have access to the world banks and amsgames web services in order to get game data.</string>
+    <string name="permission_label_WAKE_LOCK">Prevent from sleeping.</string>
+    <string name="permission_desc_WAKE_LOCK">Prevents the device from sleeping while the game is running.</string>
+    <string name="permission_label_WRITE_EXTERNAL_STORAGE">Allow write file.</string>
+    <string name="permission_desc_WRITE_EXTERNAL_STORAGE">Allows the app to save the game state as a file when the multitasking is being used.</string>
+    
+</resources>

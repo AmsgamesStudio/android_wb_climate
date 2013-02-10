@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/bg_main" >
+
+    <ImageView
+        android:id="@+id/imgDrClimateHD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dr_climate_gameover"
+        android:contentDescription="@string/content_description" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover_title"
+        android:textColor="#990000"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gameover_message"
+        android:textColor="#333333"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:textColor="#333333"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+    <TextView
+        android:id="@+id/txtHighscoreTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/highscore"
+        android:textColor="#97B451"
+        android:textStyle="bold"
+    	android:gravity="center_vertical|center_horizontal"
+    	android:padding="5dp"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/txtHighscore"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_value"
+        android:textColor="#333333"
+    	android:gravity="center_vertical|center_horizontal"
+    	android:padding="5dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+    	android:background="@color/highscore_bg"  />
+    
+    <LinearLayout
+        android:id="@+id/layButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+    	android:padding="10dp"
+    	android:gravity="center_vertical|center_horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnRetry"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+    		android:background="@color/start_button"
+    		android:padding="10dp"
+            android:src="@drawable/icon_retry"
+        	android:layout_marginRight="5dp"
+        	android:contentDescription="@string/content_description" />
+
+        <ImageButton
+            android:id="@+id/btnContinue"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+    		android:background="@color/start_button"
+    		android:padding="10dp"
+            android:src="@drawable/icon_continue"
+        	android:layout_marginLeft="5dp"
+        	android:contentDescription="@string/content_description" />
+        
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WB Climate</string>
+    <string name="copyright">© 2012 AmsGames.com</string>
+    <string name="select_country">SELECT A DIFFICULTY</string>
+    <string name="content_description">Content</string>
+    <string name="sample_value">[value]</string>
+    <string name="lbl_start_button">START</string>
+    <string name="lbl_continue_button">CONTINUE</string>
+    <string name="exit">EXIT</string>
+    <string name="default_error">The app will exit. An error occurred. </string>
+    <string name="error_internet_connection">The app will exit. Couldn\'t connect to the internet.</string>
+    <string name="error_missing_sdcard">The app will exit. Couldn\'t find an SD Card.</string>
+    <string name="prompt_exit_game">Exit to main menu?</string>
+    <string name="prompt_exit_game_yes">Yes</string>
+    <string name="prompt_exit_game_no">No</string>
+    <string name="lbl_tutorial">TUTORIAL</string>
+    <string name="lbl_credits">CREDITS</string>
+    <string name="credits">
+        
+        <b>Game Design</b>
+        \nAlejandro Mostajo
+        \nJose Cruz
+        \n\n
+        
+        <b>Developers</b>
+        \nAlejandro Mostajo
+        \nJose Cruz
+        \n\n
+        
+        <b>Graphics Design</b>
+        \nAlejandro Mostajo
+        \n\n
+        
+        <b>Sound</b>
+        \nPablo Valda
+        \n\n
+        
+        <b>Special Thanks</b>
+        \nEduardo Mostajo
+        \nJulio Marin
+        \nLuis Vega
+        \nMarykate Jones
+        
+        </string>
+</resources>

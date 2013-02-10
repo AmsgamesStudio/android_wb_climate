@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/laySelectCountry"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:background="@color/ams_green"
+    	android:layout_width="fill_parent"
+    	android:layout_height="25dp"
+    	android:layout_marginBottom="5dp"
+    	android:gravity="center_horizontal|center_vertical">
+
+        <TextView
+            android:id="@+id/lblDrClimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="@string/dr_climate" />
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtDrClimateMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_countries"
+        android:drawablePadding="10dp"
+        android:textColor="#333333"
+    	android:gravity="center_vertical"
+    	android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/dr_climate" />
+
+    <TextView
+        android:id="@+id/txtSelectCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:gravity="center_vertical"
+        android:textColor="#333333"
+    	android:textStyle="bold"
+    	android:layout_marginTop="5dp"
+    	android:layout_marginBottom="5dp"
+        android:text="@string/select_country" />
+
+    <ListView
+        android:id="@+id/listCountry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wsServerUrl">http://phpservices.amsgames.com/mobile/wbclimate/</string>
+    <string name="wsGetCountries">wsGetCountries.php</string>
+    <string name="wsGetClimateData">wsGetClimateData.php!ISO3</string>
+</resources>
